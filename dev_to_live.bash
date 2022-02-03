@@ -83,4 +83,15 @@ do
 
 done < $THEMES_LIST
 
+echo "Now to change permissions and user:group"
+echo "I don't have time to test this, so I will echo it out and give instructions."
+echo "not sure if I need to add 'sudo' yet"
+echo "cd into public_html"
+echo "do this"
+echo "find . -type f -exec chmod 644 {} \;"
+echo "find . -type d -exec chmod 755 {} \;"
+
+echo "chown -R USER:GROUP."
+
+
 echo "All Done!!"
